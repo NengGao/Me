@@ -1,0 +1,17 @@
+input{
+	outline: none;
+}
+input[type=button]{
+	width: 80%;
+	height: 36px;
+	display: block;
+	margin: 20px auto;
+	border: 0;
+	background: #54c526;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 4px;
+}
+input[type=button]:active{
+	background: #83e05d;
+}

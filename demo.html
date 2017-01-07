@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/demo.css">
+</head>
+<body>
+	<input type="button" value="QQ登录" class="qqLogin" onclick="login('qq')">
+	<input type="button" value="QQ分享">
+	<input type="button" value="播放" onclick="bg.play()">
+	<input type="button" value="暂停" onclick="bg.pause()">
+	<input type="button" value="刷新页面" onclick="window.location.reload()">
+</body>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./js/login.js"></script>
+<script src="./js/audio.js"></script>
+<script type="text/javascript">
+
+	var bg = '';
+	if(window.plus){
+		plusReady();
+	}else{
+		document.addEventListener("plusready",plusReady,false);
+	}
+	function plusReady(){
+		loginReady();
+		bg = plus.audio.createPlayer('audio/bg.mp3');
+		
+	}
+	
+</script>
+</html>
