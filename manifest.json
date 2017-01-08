@@ -10,7 +10,7 @@
     "icons": {
         "72": "icon.png"
     },
-    "launch_path": "http://192.168.1.123:8080",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+    "launch_path": "http://192.168.1.105:1000",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
     "developer": {
         "name": "",/*开发者名称*/
         "email": "",/*开发者邮箱地址*/
@@ -171,30 +171,30 @@
             "splashscreen": {
                 "ios": {
                     "iphone": {
-                        "default": "C:/Users/allen/Desktop/web/demo/app/start.png", /*iPhone3启动图片选，分辨率：320x480*/
-                        "retina35": "C:/Users/allen/Desktop/web/demo/app/start.png",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
-                        "retina40": "C:/Users/allen/Desktop/web/demo/app/start.png",/*4.0 英寸设备(iPhone5/iPhone5s)启动图片，分辨率：640x1136*/
-                        "retina47": "C:/Users/allen/Desktop/web/demo/app/start.png",/*4.7 英寸设备(iPhone6)启动图片，分辨率：750x1334*/
-                        "retina55": "C:/Users/allen/Desktop/web/demo/app/start.png",/*5.5 英寸设备(iPhone6 Plus)启动图片，分辨率：1242x2208*/
-                        "retina55l": "C:/Users/allen/Desktop/web/demo/app/start.png"/*5.5 英寸设备(iPhone6 Plus)横屏启动图片，分辨率：2208x1242*/
+                        "default": "C:/Users/NengGao/Desktop/app/start.png", /*iPhone3启动图片选，分辨率：320x480*/
+                        "retina35": "C:/Users/NengGao/Desktop/app/start.png",/*3.5英寸设备(iPhone4)启动图片，分辨率：640x960*/
+                        "retina40": "C:/Users/NengGao/Desktop/app/start.png",/*4.0 英寸设备(iPhone5/iPhone5s)启动图片，分辨率：640x1136*/
+                        "retina47": "C:/Users/NengGao/Desktop/app/start.png",/*4.7 英寸设备(iPhone6)启动图片，分辨率：750x1334*/
+                        "retina55": "C:/Users/NengGao/Desktop/app/start.png",/*5.5 英寸设备(iPhone6 Plus)启动图片，分辨率：1242x2208*/
+                        "retina55l": "C:/Users/NengGao/Desktop/app/start.png"/*5.5 英寸设备(iPhone6 Plus)横屏启动图片，分辨率：2208x1242*/
                     },
                     "ipad": {
-                        "portrait": "C:/Users/allen/Desktop/web/demo/app/start.png", /*iPad竖屏启动图片，分辨率：768x1004*/
-                        "portrait-retina": "C:/Users/allen/Desktop/web/demo/app/start.png",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
-                        "landscape": "C:/Users/allen/Desktop/web/demo/app/start.png", /*iPad横屏启动图片，分辨率：1024x748*/
-                        "landscape-retina": "C:/Users/allen/Desktop/web/demo/app/start.png", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
-                        "portrait7": "C:/Users/allen/Desktop/web/demo/app/start.png", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
-                        "portrait-retina7": "C:/Users/allen/Desktop/web/demo/app/start.png",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
-                        "landscape7": "C:/Users/allen/Desktop/web/demo/app/start.png", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
-                        "landscape-retina7": "C:/Users/allen/Desktop/web/demo/app/start.png"/*iPad iOS7高分屏横屏启动图片，分辨率：2048x1536*/
+                        "portrait": "C:/Users/NengGao/Desktop/app/start.png", /*iPad竖屏启动图片，分辨率：768x1004*/
+                        "portrait-retina": "C:/Users/NengGao/Desktop/app/start.png",/*iPad高分屏竖屏图片，分辨率：1536x2008*/
+                        "landscape": "C:/Users/NengGao/Desktop/app/start.png", /*iPad横屏启动图片，分辨率：1024x748*/
+                        "landscape-retina": "C:/Users/NengGao/Desktop/app/start.png", /*iPad高分屏横屏启动图片，分辨率：2048x1496*/
+                        "portrait7": "C:/Users/NengGao/Desktop/app/start.png", /*iPad iOS7竖屏启动图片，分辨率：768x1024*/
+                        "portrait-retina7": "C:/Users/NengGao/Desktop/app/start.png",/*iPad iOS7高分屏竖屏图片，分辨率：1536x2048*/
+                        "landscape7": "C:/Users/NengGao/Desktop/app/start.png", /*iPad iOS7横屏启动图片，分辨率：1024x768*/
+                        "landscape-retina7": "C:/Users/NengGao/Desktop/app/start.png"/*iPad iOS7高分屏横屏启动图片，分辨率：2048x1536*/
                     }
                 },
                 "android": {
-                    "mdpi": "C:/Users/allen/Desktop/web/demo/app/start.png", /*普通屏启动图片，分辨率：240x282*/
-                    "ldpi": "C:/Users/allen/Desktop/web/demo/app/start.png", /*大屏启动图片，分辨率：320x442*/
-                    "hdpi": "C:/Users/allen/Desktop/web/demo/app/start.png", /*高分屏启动图片，分辨率：480x762*/
-                    "xhdpi": "C:/Users/allen/Desktop/web/demo/app/start.png", /*720P高分屏启动图片，分辨率：720x1242*/
-                    "xxhdpi": "C:/Users/allen/Desktop/web/demo/app/start.png"/*1080P高分屏启动图片，分辨率：1080x1882*/
+                    "mdpi": "C:/Users/NengGao/Desktop/app/start.png", /*普通屏启动图片，分辨率：240x282*/
+                    "ldpi": "C:/Users/NengGao/Desktop/app/start.png", /*大屏启动图片，分辨率：320x442*/
+                    "hdpi": "C:/Users/NengGao/Desktop/app/start.png", /*高分屏启动图片，分辨率：480x762*/
+                    "xhdpi": "C:/Users/NengGao/Desktop/app/start.png", /*720P高分屏启动图片，分辨率：720x1242*/
+                    "xxhdpi": "C:/Users/NengGao/Desktop/app/start.png"/*1080P高分屏启动图片，分辨率：1080x1882*/
                 }
             }
         }
