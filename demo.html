@@ -7,17 +7,29 @@
 	<link rel="stylesheet" href="./css/demo.css">
 </head>
 <body>
+	<header id="header">
+		<h1>首页</h1>
+	</header>
 	<input type="button" value="QQ登录" class="qqLogin" onclick="login('qq')">
 	<input type="button" value="QQ分享">
 	<input type="button" value="播放" onclick="bg.play()">
 	<input type="button" value="暂停" onclick="bg.pause()">
+	<input type="button" value="震动" onclick="vibrate(800)">
+	<input type="button" value="选择照片" onclick="galleryImg()">
 	<input type="button" value="刷新页面" onclick="window.location.reload()">
 </body>
+<script>
+	var immersed = 0;
+	var ms=(/Html5Plus\/.+\s\(.*(Immersed\/(\d+\.?\d*).*)\)/gi).exec(navigator.userAgent);
+	if(ms&&ms.length>=3){ // 当前环境为沉浸式状态栏模式
+	    immersed=parseFloat(ms[2]);// 获取状态栏的高度
+	}
+	var t=document.getElementById('header');
+	t.style.paddingTop=immersed+'px';
+</script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="./js/login.js"></script>
-<script src="./js/audio.js"></script>
 <script type="text/javascript">
-
 	var bg = '';
 	if(window.plus){
 		plusReady();
@@ -27,8 +39,19 @@
 	function plusReady(){
 		loginReady();
 		bg = plus.audio.createPlayer('audio/bg.mp3');
-		
 	}
-	
+	//震动
+	function vibrate(time){
+		plus.device.vibrate(time);
+	}
+	// 从相册中选择图片 
+	function galleryImg() {
+		// 从相册中选择图片
+	    plus.gallery.pick( function(path){
+	    	console.log(path);
+	    }, function ( e ) {
+	    	console.log( "取消选择图片" );
+	    }, {filter:"image"} );
+	}
 </script>
 </html>

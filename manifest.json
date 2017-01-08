@@ -23,7 +23,6 @@
         "Audio": {
             "description": "访问麦克风"
         },
-        
         "Cache": {
             "description": "管理应用缓存"
         },
